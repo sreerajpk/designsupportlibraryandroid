@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/allInboxes"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/inboxes"
+            android:checkable="false"
+            android:enabled="false"
+            android:title="All inboxes"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/primary"
+            android:checkable="true"
+            android:title="Primary" />
+
+        <item
+            android:id="@+id/social"
+            android:checkable="true"
+            android:title="Social" />
+
+        <item
+            android:id="@+id/promotions"
+            android:checkable="true"
+            android:title="Promotions" />
+
+        <item
+            android:id="@+id/updates"
+            android:checkable="true"
+            android:title="Updates" />
+
+        <item
+            android:id="@+id/forums"
+            android:checkable="true"
+            android:title="Forums" />
+    </group>
+    <group
+        android:id="@+id/all_labels"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/labels"
+            android:checkable="false"
+            android:enabled="false"
+            android:title="All labels"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/create3"
+            android:checkable="true"
+            android:title="Label 1"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/create4"
+            android:checkable="true"
+            android:title="Label 2"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/create5"
+            android:checkable="true"
+            android:title="Label 3"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/create6"
+            android:checkable="true"
+            android:title="Label 4"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/create7"
+            android:checkable="true"
+            android:title="Label 5"
+            app:showAsAction="always" />
+    </group>
+    <group
+        android:id="@+id/other_items"
+        android:checkableBehavior="single">
+        <item
+            android:checkable="true"
+            android:title="Settings" />
+        <item
+            android:checkable="true"
+            android:title="Privacy" />
+        <item
+            android:checkable="true"
+            android:title="Help" />
+    </group>
+</menu>

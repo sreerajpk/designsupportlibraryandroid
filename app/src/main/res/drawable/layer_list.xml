@@ -1,0 +1,5 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/plus" />
+    <item android:drawable="@drawable/test_whatsapp" />
+    <item android:drawable="@mipmap/ic_launcher" />
+</layer-list>
